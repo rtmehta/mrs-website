@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>MRS UCLA - Photos.</title>
+<link href="styles.css" rel="stylesheet">
+<style>
+td {font-family: helvetica, impact, sans-serif; font-size:10pt;}
+b.updates {font-size: 12pt;}
+i {font-size:9pt;}
+a {text-decoration:none;opacity: .5;color:#000}
+<!--a:hover {opacity: 1;}-->
+</style>
+<script type="text/javascript">
+function out()
+{document.menu.src="tp.png";}
+function Home()
+{document.menu.src="top01.png";}
+function Materials()
+{document.menu.src="top02.png";}
+function Photos()
+{document.menu.src="top03.png";}
+function Opportunities()
+{document.menu.src="top04.png";}
+function Contact()
+{document.menu.src="top05.png";}
+</script>
+
+<style>
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #ffffff;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	position: fixed;
+	top: 0; left:0;
+	position: fixed;
+	width: 100%; opacity: 100%;}
+li {
+	float: left;
+	}
+
+li:last-child {
+	border-right: none;}
+
+li a {
+	display: block;
+	color: #3284bf;
+	opacity: 100%;
+	text-align: center;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: Century Gothic, Cambria, sans-serif; }
+li a:hover {
+	transition: background-color 1s; background-color: #3284bf; color: #fff;}
+.active {
+	background-color: #d3d3d3;}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+	<!--<img src="MRS.jpg" style="height:38px;" alt="MRS Logo">-->
+	<a href="http://www.seas.ucla.edu/mrs/index.html">home</a>
+	<a href="http://www.seas.ucla.edu/mrs/materials.html">materials</a>
+	<a class="active" href="http://www.seas.ucla.edu/mrs/photos.html">photos</a>
+	<a href="http://www.seas.ucla.edu/mrs/opportunities.html">opportunities</a>
+	<a href="http://www.seas.ucla.edu/mrs/contact.html">contact</a>
+	<a href="https://www.facebook.com/groups/2303509207/" target="_blank" style="float:right;">facebook</a>
+	<a href="http://facebook.us14.list-manage.com/subscribe?u=0b216be82e1c52c9791bf5b11&id=bb73512ccc" target="_blank" style="float:right;">email newsletter</a>
+</div>
+<div class="Main">
+
+<h1>Photos</h1>
+
+<div id="omega">
+<table width="100%">
+<tr><td>
+<a href="bbq.html"><img src="530817.jpg" width="200" class="album"><br>
+<small>MRS BBQ 2008</small></span></a>
+</td><td>
+<a href="ewd.html"><img src="92487.jpg" width="200" class="album" id="ewd8"><br>
+<small>Engineering Welcome day</small></span></a>
+</td><td>
+<a href="alumnipanel.html"><img src="114918.jpg" width="200" class="album" id="alumni9"><br>
+<small>First Annual Alumni Panel</small></span></a>
+</td></tr>
+</table>
+</div>
+
+
+
+</td></tr>
+
+		</table>
+
+	    </td>
+	</tr>
+
+</table>
+
+<map id="top" name="top">
+
+<area shape="rect" coords="0,0,134,26" onMouseOver="Home()" onMouseOut="out()" href="index.html">
+<area shape="rect" coords="137,0,308,26" onMouseOver="Materials()" onMouseOut="out()" href="materials.html">
+<area shape="rect" coords="311,0,448,26" onMouseOver="Photos()" onMouseOut="out()" href="photos.html">
+<area shape="rect" coords="451,0,626,26" onMouseOver="Opportunities()" onMouseOut="out()" href="opportunities.html">
+<area shape="rect" coords="629,0,765,26" onMouseOver="Contact()" onMouseOut="out()" href="contact.html">
+</map>
+</body>
+</html>
+
+
+<script type="text/javascript">
+function over(n)
+{
+switch(n)
+{
+case 1:
+document.getElementById('bbq8').style.opacity="1";
+break;
+case 2:
+document.getElementById('ewd8').style.opacity="1";
+break;
+case 3:
+document.getElementById('alumni9').style.opacity="1";
+break;
+default:
+document.getElementById('bbq8').style.opacity=".5";
+document.getElementById('ewd8').style.opacity=".5";
+document.getElementById('alumni9').style.opacity=".5";
+break;
+}
+}
+function checkphotos(n)
+{
+code="<table><tr><td>";
+switch(n)
+{
+case 5308:
+for(i=1;i<=60;i++)
+{
+
+if(i%3==0)
+{
+code+="<img src='"+n+i+".jpg' width='250'></td></tr><tr><td>";
+}
+else
+{
+code+="<img src='"+n+i+".jpg' width='250'></td><td>";
+}
+} //end of for
+code+="</td></tr></table>"
+document.getElementById('omega').innerHTML=code;
+break;
+case 9248:
+for(i=1;i<=7;i++)
+{
+
+if(i%3==0)
+{
+code+="<img src='"+n+i+".jpg' width='250'></td></tr><tr><td>";
+}
+else
+{
+code+="<img src='"+n+i+".jpg' width='250'></td><td>";
+}
+} //end of for
+code+="</td></tr></table>"
+document.getElementById('omega').innerHTML=code;
+break;
+case 1149:
+for(i=1;i<=22;i++)
+{
+if(i%3==0)
+{
+code+="<img src='"+n+i+".jpg' width='250'></td></tr><tr><td>";
+}
+else
+{
+code+="<img src='"+n+i+".jpg' width='250'></td><td>";
+}
+} //end of for
+code+="</td></tr></table>"
+document.getElementById('omega').innerHTML=code;
+break;
+} //end of switch
+}
+function back()
+{
+document.getElementById('omega').innerHTML="<table width='100%'><tr><td><span onmouseover='over(1)' onmouseout='over(500)' onclick='checkphotos(5308)'><img src='530817.jpg' width='200' class='album' id='bbq8'><br><small>MRS BBQ 2008</small></span></td><td><span onmouseover='over(2)' onmouseout='over(500)' onclick='checkphotos(9248)'><img src='92487.jpg' width='200' class='album' id='ewd8'><br><small>Engineering Welcome day</small></span></td><td><span onmouseover='over(3)' onmouseout='over(500)' onclick='checkphotos(1149)'><img src='114918.jpg' width='200' class='album' id='alumni9'><br><small>First Annual Alumni Panel</small></span></td></tr></table>";
+}
+
+
+
+</script>
+
