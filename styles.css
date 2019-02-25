@@ -91,3 +91,12 @@ text-decoration: underline;
 	display: flex;
 	align-items: center;
 }
+.events{
+	border:5px solid #696969;padding: 5px; width:50%; height:274px;
+	overflow:scroll;overflow-y:scroll;overflow-x:hidden; 
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin-top: 30px;
+	padding: 16px;
+	}
