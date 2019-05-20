@@ -22,6 +22,11 @@ h3 {
   text-align: center;
   font-weight: normal;
 }
+h4 {
+	font-size: 15px;
+	text-align: center;
+	font-weight: normal;
+  }
 table.center {
 	width:80%;
     margin-left:10%; 
@@ -100,3 +105,10 @@ text-decoration: underline;
 	margin-top: 30px;
 	padding: 16px;
 	}
+.photossection{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+u 
