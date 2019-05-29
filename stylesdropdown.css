@@ -1,0 +1,158 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+}
+p {
+	font-family: Verdana, sans-serif;
+	font-size: 10pt;	
+	}
+h1 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: normal;
+}
+h3 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: normal;
+}
+h4 {
+	font-size: 15px;
+	text-align: center;
+	font-weight: normal;
+  }
+table.center {
+	width:80%;
+    margin-left:10%; 
+    margin-right:10%;
+  }
+.amw {
+	position: relative;
+}
+.top-left {
+  font-size: 14pt;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 24px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #3284bf;
+  text-align: center;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #3284bf;
+  padding: 10px 18px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background: #3284bf;
+  color: white;
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #3284bf;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.Main {
+  padding: 16px;
+  margin-top: 30px;
+}
+.active, .dropdown-content a:hover {
+	background-color: #d3d3d3; 
+	}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+u {
+text-decoration: underline;
+}
+.centered{
+	display: inline-block;
+	vertical-align: middle;
+	color:#ffffff;
+	text-align: center;
+	font-family:Century Gothic;
+	font-size:40px;
+	width: 100%;
+}
+.overlay{
+	position: absolute;  
+	top: 0; left: 0; right: 0; bottom: 0;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.3);
+	text-align: center;	
+	display: flex;
+	align-items: center;
+}
+.events{
+	border:5px solid #696969;padding: 5px; width:50%; height:274px;
+	overflow:scroll;overflow-y:scroll;overflow-x:hidden; 
+	margin-left: auto;
+	margin-right: auto;
+	float: right;
+	margin-top: 30px;
+	padding: 16px;
+	}
+.photossection{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
